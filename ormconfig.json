@@ -1,6 +1,10 @@
 {
-    "type": "sqlite",
-    "database": "./src/database/database.sqlite",
+    "type": "postgres",
+    "host": "seuhost",
+    "username": "seuusername", 
+    "password": "suasenha",
+    "port": 5432,
+    "database": "nlw4",
     "migrations": ["./src/database/migrations/**.ts"],
     "entities": ["./src/models/**.ts"],
     "logging": true,
